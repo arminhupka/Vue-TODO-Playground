@@ -18,8 +18,7 @@ export default {
   height: 35rem;
   display: flex;
   align-items: center;
-  background: url("https://picsum.photos/1920/1080") center no-repeat;
-  background-size: cover;
+  background: #952ddc;
 }
 
 .header::before {
@@ -30,8 +29,9 @@ export default {
   width: 100%;
   height: 100%;
   display: block;
-  background: #952ddc;
-  opacity: .3;
+  background: url("https://picsum.photos/1920/1080") center no-repeat;
+  background-size: cover;
+  opacity: .4;
 }
 
 .title {
