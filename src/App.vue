@@ -28,7 +28,7 @@ export default {
     },
     handleInput(e) {
       this.newTask = e.target.value;
-    }
+    },
   }
 }
 </script>

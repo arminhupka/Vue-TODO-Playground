@@ -13,6 +13,14 @@ export default {
     cleanInput() {
       this.$refs['taskInput'].value=""
     }
+  },
+  mounted() {
+    window.addEventListener('keydown', (e) => {
+      if(e.key === 'Enter') {
+        this.addTask();
+        this.cleanInput();
+      }
+    })
   }
 }
 </script>

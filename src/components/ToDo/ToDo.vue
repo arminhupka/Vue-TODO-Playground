@@ -29,6 +29,8 @@ export default {
 
 <style>
 .todo {
+  position: relative;
   margin-top: -10rem;
+  z-index: 2;
 }
 </style>
