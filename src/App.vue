@@ -24,7 +24,8 @@ export default {
       if (!this.newTask) {
         return;
       }
-      this.tasks.push(this.newTask)
+      this.tasks.push(this.newTask);
+      this.newTask = "";
     },
     handleInput(e) {
       this.newTask = e.target.value;
